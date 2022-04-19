@@ -1,8 +1,8 @@
-name: My First Manual Workflow
+name: Manual smoke tests
 on: [workflow_dispatch]
 jobs:
-  example:
-    name: Example Job
+  smoke-tests:
+    name: Smoke tests
     runs-on: ubuntu-latest
     steps:
       - name: Clone Repository
